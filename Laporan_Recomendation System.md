@@ -315,5 +315,6 @@ Sistem rekomendasi film berbasis **Content-Based Filtering** yang dikembangkan d
 Meskipun tidak menggunakan data interaksi pengguna seperti rating atau ulasan, sistem ini mampu mengidentifikasi hubungan semantik antar film hanya dengan mengandalkan fitur konten. Dua indikator **evaluasi—Genre Similarity** (Intersection over Union) dan **Director Match** menunjukkan skor kesamaan yang tinggi, yang membuktikan efektivitas pendekatan ini dalam mengenali pola dan preferensi yang tersembunyi di balik struktur data film. Sistem ini sangat bermanfaat terutama dalam konteks awal implementasi atau jika data pengguna masih terbatas.
 
 ## Referensi
-[^1] Muhammad Fajriansyah, et.all, Sistem Rekomendasi Film Menggunakan ContentBasedFiltering, jurnal ptiik.ub 2021 (https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163/4159)
-[^2] Jeremia Maheswara A.S, et al, Sistem Rekomendasi Film pada Platform Streaming Menggunakan Metode Content-Based Filtering, jurnals.usm, 2024 (https://journals.usm.ac.id/index.php/transformatika/)
+[^1]: Muhammad Fajriansyah, et al., Sistem Rekomendasi Film Menggunakan ContentBasedFiltering, jurnal ptiik.ub 2021 (https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163/4159)
+
+[^2]: Jeremia Maheswara A.S, et al., Sistem Rekomendasi Film pada Platform Streaming Menggunakan Metode Content-Based Filtering, jurnals.usm, 2024 (https://journals.usm.ac.id/index.php/transformatika/)
