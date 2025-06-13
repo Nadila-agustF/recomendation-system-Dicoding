@@ -137,10 +137,13 @@ Grafik di atas menunjukkan distribusi rating film dalam dataset. Terlihat bahwa:
 Dalam mempersiapkan data agar dapat menghasilkan sistem rekomendasi yang akurat, diperlukan beberapa tahapan data preparation, antara lain:
 
 1. Pembersihan Data
+
 Dataset sudah dipastikan tidak memiliki missing value atau data duplikat, sehingga tidak diperlukan proses imputasi atau penghapusan data ganda.
 2. Pemilihan fitur
+
 Dalam pendekatan ini, fitur yang relevan adalah genre dan director karena kedua atribut ini mencerminkan gaya dan jenis film yang dapat mempengaruhi preferensi pengguna.
 3. Feature Engineering
+
 Menggabungkan kolom genre dan director ke dalam satu kolom **combined_features** untuk mempermudah proses ekstraksi fitur dan penghitungan kemiripan antar film. 
 
 ```sh
@@ -214,6 +217,7 @@ Title	Similarity Score
 8	Vikram Vedha	0.2062
 9	Key Largo	0.2033
 ```
+
 ### Kelebihan & Kekurangan menggunakan Conten Based Filtering
 
 **Kelebihan:**
