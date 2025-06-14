@@ -66,6 +66,7 @@ memory usage: 62.6+ KB
 
 ### Memeriksa nilai 0
 Ketika menampilkan dataframe, terdapat nilai 0 pada kolom metascore dan gross. 
+
 ![alt text](img/image-4.png)
 
 Kemudian, ketika diperiksa nilai 0 di kolom metascore, ternyata terdapat nilai 0 yang cukup banyak. 
@@ -73,6 +74,7 @@ Kemudian, ketika diperiksa nilai 0 di kolom metascore, ternyata terdapat nilai 0
 mv_df[mv_df['metascore'] == 0]
 ```
 Hasil analisis
+
 ![alt text](img/image-3.png)
 
 ### Memeriksa missing value dan duplikasi
